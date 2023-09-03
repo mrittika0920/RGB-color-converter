@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!--link custom css stylesheet-->
+        <link rel="stylesheet" href="rgb.css">
+        <title> RGB Color Generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="generator">
+                <h4 class="head">RGB color converter</h4>
+                <div class="color-slider">
+                    
+                    <div class="color">
+                        <div class="name-value">
+                            <span>R</span>
+                            <span class="val">0</span>
+                        </div>
+                        <div class="color-input">
+                            <input class="box" min="0"max="255" value ="0" type="range">
+                            <div class="fill"></div>
+                        </div>
+                        
+                    </div>
+                    <div class ="color">
+                        <div class="name-value">
+                            <span>G</span>
+                            <span class="val">0</span>
+                        </div>
+                        <div class="color-input">
+                            <input type="range" min="0"max="255" value ="0" class="box">
+                            <div class="fill"></div>
+                        </div>
+                        
+                    </div>
+                    <div class="color">
+                        <div class="name value">
+                            <span>B</span>
+                            <span class="val">0</span>
+                        </div>
+                        <div class="color-input">
+                            <input type="range" min="0"max="255" value ="0" class="box">
+                            <div class="fill"></div>
+                        </div>
+                       
+                    </div>
+                </div>
+                
+                <div class="generated-color">
+                    <div class="rgb-val">RGB(0,0,0)</div>
+                    <div class="color-display"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="rgb.js"></script>
+</html>
+ 
+ 
